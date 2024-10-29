@@ -1,4 +1,4 @@
-package com.example.appagenda.model;
+package com.example.appagenda.controler;
 
 import android.os.Bundle;
 import android.widget.Button;
@@ -6,7 +6,6 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 import com.example.appagenda.model.Agenda;
 import com.example.appagenda.model.Usuario;
-import com.example.appagenda.model.Compromisso;
 import com.example.appagenda.R;
 
 public class MainActivity extends AppCompatActivity {
