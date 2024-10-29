@@ -15,6 +15,12 @@
         android:layout_marginBottom="16dp"
         android:gravity="center" />
 
+    <View
+        android:id="@+id/view2"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_weight="0" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -26,7 +32,13 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Data" />
+            android:text="Data"/>
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="64dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.2" />
 
         <Button
             android:id="@+id/buttonTime"
@@ -47,6 +59,7 @@
 
     <EditText
         android:id="@+id/editTextDescription"
+        android:layout_margin="16pd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
