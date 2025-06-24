@@ -54,3 +54,5 @@ A simple and functional scheduling and task management mobile app developed in J
 ---
 
 Made by Adalberto and Diogo
+
+**Portuguese version available:** [README-pt.md](README-pt.md)
